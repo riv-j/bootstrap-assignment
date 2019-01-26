@@ -122,3 +122,11 @@ footer ul a {
   color: rgb(82, 26, 26);
   font-weight: bold;
 }
+
+@media only screen and (max-width: 480px) {
+  .card-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('food.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+  }
+}
